@@ -80,3 +80,34 @@ elif time < 21:
   print("Good evening!")
 else:
   print("Good night!")
+
+# for文
+a = [2012, 2013, 2014, 2015]
+for i in a:
+  print(i + 10)
+
+# range
+for i in range(0, 6):
+  print(i * 2)
+
+# while
+print("---10未満---")
+a = 0
+while a < 10:
+  print(a)
+  a += 1
+print("---10と等しくない---")
+b = 0
+while b != 10:
+  print(b)
+  b += 1
+
+
+# 分岐とループの組み合わせ
+
+a = []
+for i in range(0, 10):
+  if i % 2 == 0:
+    a.append(i)
+
+print(a)
